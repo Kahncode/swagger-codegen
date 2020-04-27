@@ -133,7 +133,7 @@ public class CodegenOperation {
     /**
      * Check if act as Restful show method
      *
-     * @return true if act as Restful show method, false otherwise
+     * @return true if act as Restful show method, false otherwisec
      */
     public boolean isRestfulShow() {
         return "GET".equalsIgnoreCase(httpMethod) && isMemberPath();

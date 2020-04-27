@@ -3423,6 +3423,11 @@ public class DefaultCodegen {
         return apiFileFolder() + File.separator + toApiFilename(tag) + suffix;
     }
 
+    public String modelFilename(String templateName, String modelName) {
+        String suffix = modelTemplateFiles().get(templateName);
+        return modelFileFolder() + File.separator + toModelFilename(modelName) + suffix;
+    }
+
     /**
      * Return the full path and API documentation file
      *
